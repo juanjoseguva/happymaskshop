@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/maskoffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happymaskitemoffer" />
+
+
+    <TextView
+        android:id="@+id/looking"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/were_you_looking_for_this"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/maskoffer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/addImage"
+        android:layout_width="177dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="179dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/add"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/addImage"
+        app:layout_constraintEnd_toEndOf="@+id/addImage"
+        app:layout_constraintStart_toStartOf="@+id/addImage"
+        app:layout_constraintTop_toTopOf="@+id/addImage" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backImage"
+        app:layout_constraintTop_toTopOf="@+id/backImage" />
+
+    <ImageView
+        android:id="@+id/dekushield"
+        android:layout_width="125dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="143dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dekushield" />
+
+    <ImageView
+        android:id="@+id/dragonpriestMask"
+        android:layout_width="130dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dragonpriestsmask" />
+
+    <ImageView
+        android:id="@+id/manaPotion"
+        android:layout_width="162dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/manapotion" />
+
+    <ImageView
+        android:id="@+id/pegasusBoots"
+        android:layout_width="187dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hoverboots" />
+
+
+    <ImageView
+        android:id="@+id/phoenixDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="216dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phoenixdown" />
+
+    <ImageView
+        android:id="@+id/woodenShield"
+        android:layout_width="147dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/woodenshield" />
+
+    <ImageView
+        android:id="@+id/meridiasBeacon"
+        android:layout_width="130dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="189dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/meridiasbeacon" />
+
+    <ImageView
+        android:id="@+id/masterSword"
+        android:layout_width="303dp"
+        android:layout_height="328dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mastersword" />
+
+    <ImageView
+        android:id="@+id/healthPotion"
+        android:layout_width="213dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="174dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hppotion" />
+
+    <ImageView
+        android:id="@+id/heartContainer"
+        android:layout_width="209dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartcontainer" />
+
+
+    <ImageView
+        android:id="@+id/hookshot"
+        android:layout_width="240dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hookshot" />
+
+    <ImageView
+        android:id="@+id/hylianShield"
+        android:layout_width="146dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hylianshield" />
+
+    <ImageView
+        android:id="@+id/majorasMask"
+        android:layout_width="214dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/majorasmask" />
+
+    <ImageView
+        android:id="@+id/ironBoots"
+        android:layout_width="166dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ironboots" />
+
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="384dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/default_text"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hookshot" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="58dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/backButton"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/addButton"
+        app:srcCompat="@drawable/majorasmask" />
+
+    <ImageView
+        android:id="@+id/portalGun"
+        android:layout_width="272dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apscihhportdev" />
+
+    <ImageView
+        android:id="@+id/blueShell"
+        android:layout_width="263dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluesh" />
+
+    <ImageView
+        android:id="@+id/busterSword"
+        android:layout_width="273dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buster" />
+
+    <ImageView
+        android:id="@+id/cubone"
+        android:layout_width="207dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="174dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cubone" />
+
+    <ImageView
+        android:id="@+id/fairy"
+        android:layout_width="109dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fairy" />
+
+    <ImageView
+        android:id="@+id/loki"
+        android:layout_width="375dp"
+        android:layout_height="355dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="117dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loki" />
+
+    <ImageView
+        android:id="@+id/lpiece"
+        android:layout_width="50dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="189dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lpiece" />
+
+    <ImageView
+        android:id="@+id/miraak"
+        android:layout_width="155dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/miraak" />
+
+    <ImageView
+        android:id="@+id/nihilus"
+        android:layout_width="156dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nihilus" />
+
+    <ImageView
+        android:id="@+id/ocarina"
+        android:layout_width="144dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="189dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oot" />
+
+    <ImageView
+        android:id="@+id/pipBoy"
+        android:layout_width="204dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="189dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pip" />
+
+    <ImageView
+        android:id="@+id/predator"
+        android:layout_width="130dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/predator" />
+
+    <ImageView
+        android:id="@+id/wabbajack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wabbajack" />
+
+    <ImageView
+        android:id="@+id/windwaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="162dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/windwaker" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

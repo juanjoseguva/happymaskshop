@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="407dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="-60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happymaskerror" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="65dp"
+        android:text="@string/barter_message"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/offerImage"
+        android:layout_width="208dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/cancelBarterImage"
+        android:layout_width="208dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/offerImage"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <Button
+        android:id="@+id/offerButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/make_offer"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/offerImage"
+        app:layout_constraintEnd_toEndOf="@+id/offerImage"
+        app:layout_constraintStart_toStartOf="@+id/offerImage"
+        app:layout_constraintTop_toTopOf="@+id/offerImage" />
+
+    <Button
+        android:id="@+id/cancelBarterButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/cancel"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cancelBarterImage"
+        app:layout_constraintEnd_toEndOf="@+id/cancelBarterImage"
+        app:layout_constraintStart_toStartOf="@+id/cancelBarterImage"
+        app:layout_constraintTop_toTopOf="@+id/cancelBarterImage" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="359dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TextView
+            android:id="@+id/itemsToBarter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_text" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/barterOffer"
+        android:layout_width="357dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="24dp"
+        android:hint="@string/your_offer"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

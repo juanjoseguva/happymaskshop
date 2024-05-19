@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="407dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="-60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happymaskquery" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="392dp"
+        android:layout_height="36dp"
+        android:text="What would you like to do, dear client?"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="154dp"
+        android:layout_height="86dp"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/backImage3"
+        android:layout_width="156dp"
+        android:layout_height="88dp"
+
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImage"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/backImage2"
+        android:layout_width="177dp"
+        android:layout_height="74dp"
+
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/backImage4"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImage2"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <ImageView
+        android:id="@+id/backImage5"
+        android:layout_width="149dp"
+        android:layout_height="91dp"
+
+        android:layout_marginTop="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImage3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/wood_sign" />
+
+    <Button
+        android:id="@+id/changeAddressButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/change_address"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage2"
+        app:layout_constraintEnd_toEndOf="@+id/backImage2"
+        app:layout_constraintStart_toStartOf="@+id/backImage2"
+        app:layout_constraintTop_toTopOf="@+id/backImage2" />
+
+    <Button
+        android:id="@+id/backfromacctbutton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage5"
+        app:layout_constraintEnd_toEndOf="@+id/backImage5"
+        app:layout_constraintStart_toStartOf="@+id/backImage5"
+        app:layout_constraintTop_toTopOf="@+id/backImage5" />
+
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/change_password"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage"
+        app:layout_constraintEnd_toEndOf="@+id/backImage"
+        app:layout_constraintStart_toStartOf="@+id/backImage"
+        app:layout_constraintTop_toTopOf="@+id/backImage" />
+
+    <Button
+        android:id="@+id/autobanButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Cancel Membership"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/backImage4"
+        app:layout_constraintTop_toBottomOf="@+id/backImage2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/employButton"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Work at the shop"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage3"
+        app:layout_constraintEnd_toEndOf="@+id/backImage3"
+        app:layout_constraintStart_toStartOf="@+id/backImage3"
+        app:layout_constraintTop_toBottomOf="@+id/backImage" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="97dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/majorasmask" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
